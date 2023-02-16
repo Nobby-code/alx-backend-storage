@@ -1,2 +1,2 @@
 // Listing all documents starting with Holberton
-db.school.find( {"name": {$regex: /Holberton/i}} )
+db.school.find( {"name": {$regex: /Holberton/}} )
